@@ -37,5 +37,5 @@ for train_index, test_index in folds.split(X_C):
 predictions = np.concatenate(results, axis=0)
 
 # effectuer une evaluation globale pour le dataset
-print()
+print("Salut Almissi")
 print("Global accuracy score: {:0.4%}".format(accuracy_score(y_C, predictions)))
